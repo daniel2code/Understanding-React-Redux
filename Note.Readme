@@ -1,0 +1,23 @@
+Redux is a predictable state container for javascript apps
+
+1. redux is for javascript application. it is a library
+
+2.redux is a state container, it stores the state of your app
+eg state = { user: []}
+
+3. Redux is predictable. State transitions in redux is explicit
+and can be tracked.
+
+React + Redux.
+why do we need redux despite the fact that components in reacct have their own state
+ shared state or data can be difficult to pass to each component in need, that is prop drilling
+ with redux the state is or data is at the root of the apvplication so each component can share 
+ data directly instead of nested props.
+
+ in our application we can create a multiple reducers if we have more than one action. this can help manage 
+ our state well.
+
+
+ Middleware
+ Middleware is a suggested way to extend redux with custom functionality
+ Middleware is used for logging, crash reporting, performing asynchronous tasks etc
